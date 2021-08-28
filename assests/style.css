@@ -1,7 +1,8 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
   line-height: 1;
+  background-color: pink; 
 }
 
 textarea {
@@ -68,4 +69,9 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.table {
+    border: black;
+    border-style:double
 }

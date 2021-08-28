@@ -21,14 +21,62 @@
     <link rel="stylesheet" href="./assests/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container-fluid">
+    <main>
+        <!---Table to store schedule with 9 rows and 3 columns-->   
+    <section class="container"></section>
+    <table class="table">
+          <tr>
+            <th id="col">9:00 am</th>
+            <th scope="col9">---------</th>
+            <th scope="col"><button type="submit" value="Save">Submit</button></th>
+          </tr>
+        </tr>
+          <th scope="col">10:00 am</th>
+          <th scope="col10">-------</th>
+          <th scope="col"><button type="submit" value="Save">Submit</button></th>
+        </tr>
+        </tr>
+            <th scope="col">11:00am </th>
+            <th scope="col11">-------</th>
+            <th scope="col"><button type="submit" value="Save">Submit</button></th>
+          </tr>
+          <tr>
+            <th scope="row12">12:00 pm</th>
+            <td>------</td>
+            <td><button type="submit" value="Save">Submit</button></th>
+          </tr>
+            <th scope="col">1:00 pm</th>
+            <th scope="col1">-------</th>
+            <th scope="col"><button type="submit" value="Save">Submit</button></th>
+          </tr>
+          <tr>
+            <th scope="col">2:00 pm</th>
+            <th scope="col2"></th>
+            <th scope="col"><button type="submit" value="Save">Submit</button></th>
+          </tr>
+          <tr>
+            <th scope="col3">3:00 pm</th>
+            <th scope="col3">-------</th>
+            <th scope="col"><button type="submit" value="Save">Submit</button></th>
+          </tr>
+          <tr>
+            <th scope="col">4:00 pm</th>
+            <th scope="col4">-------</th>
+            <th scope="col"><button type="submit" value="Save">Submit</button></th>
+          <tr>
+            <th scope="col">5:00 pm</th>
+            <th scope="col5">-------</th>
+            <th scope="col"><button type="submit" value="Save">Submit</button></th>
+          </tr>
+        </tbody>
+      </table>
+    </main>
       <!------insert time block here-->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
