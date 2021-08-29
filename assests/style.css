@@ -19,7 +19,7 @@ textarea {
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px dotted black;
 }
 
 .description {
@@ -62,8 +62,8 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: white;
+  color:pink;
 }
 
 .saveBtn i:hover {
@@ -73,5 +73,6 @@ textarea {
 
 .table {
     border: black;
-    border-style:double
+    border-style:double;
+    background-color:white;  
 }

@@ -23,61 +23,61 @@
   </head>
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h2 class="display-3">{For Today}</h2>
+      <p class="lead">Cherish your yesterdays, dream your tomorrows and live your todays.</p>
+      <br>
+      <p>⭐TODAY IS⭐</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <main>
-        <!---Table to store schedule with 9 rows and 3 columns-->   
+        <!---Table to store schedule with 9--->   
     <section class="container"></section>
-    <table class="table">
-          <tr>
-            <th id="col">9:00 am</th>
-            <th scope="col9">---------</th>
-            <th scope="col"><button type="submit" value="Save">Submit</button></th>
-          </tr>
-        </tr>
-          <th scope="col">10:00 am</th>
-          <th scope="col10">-------</th>
-          <th scope="col"><button type="submit" value="Save">Submit</button></th>
-        </tr>
-        </tr>
-            <th scope="col">11:00am </th>
-            <th scope="col11">-------</th>
-            <th scope="col"><button type="submit" value="Save">Submit</button></th>
-          </tr>
-          <tr>
-            <th scope="row12">12:00 pm</th>
-            <td>------</td>
-            <td><button type="submit" value="Save">Submit</button></th>
-          </tr>
-            <th scope="col">1:00 pm</th>
-            <th scope="col1">-------</th>
-            <th scope="col"><button type="submit" value="Save">Submit</button></th>
-          </tr>
-          <tr>
-            <th scope="col">2:00 pm</th>
-            <th scope="col2"></th>
-            <th scope="col"><button type="submit" value="Save">Submit</button></th>
-          </tr>
-          <tr>
-            <th scope="col3">3:00 pm</th>
-            <th scope="col3">-------</th>
-            <th scope="col"><button type="submit" value="Save">Submit</button></th>
-          </tr>
-          <tr>
-            <th scope="col">4:00 pm</th>
-            <th scope="col4">-------</th>
-            <th scope="col"><button type="submit" value="Save">Submit</button></th>
-          <tr>
-            <th scope="col">5:00 pm</th>
-            <th scope="col5">-------</th>
-            <th scope="col"><button type="submit" value="Save">Submit</button></th>
-          </tr>
-        </tbody>
-      </table>
-    </main>
-      <!------insert time block here-->
+    <div class="container">
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">09 AM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">10 AM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">11 AM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">12 AM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">1 PM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">2 PM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">3 PM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">4 PM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
+      <div class="row time-block" id="9">
+        <div class="col-1 hour">5 PM</div>
+        <textarea class="col-10 schedule"></textarea>
+        <button class="col-1 saveBtn"><span class="fas fa-save"></span></button>
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
